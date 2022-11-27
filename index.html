@@ -9,34 +9,52 @@
 </head>
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  <h1 id="tittle">Survey Form</h1>
-  <p id="description">thank you for taking the time to help us inprove the platphorme</p>
+
+  <main>
+
+  <h1 id="tittle">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
   
   <form action="" id="survey-form">
+    
     <div>
     <label for="" id="name-label">name</label>
-    <input type="text" id="name" placeholder="enter your name" required>
-      </div>
+    </div>
+    <div>
+    <input type="text" id="name" placeholder="Enter your name" required>
+    </div>
 
       <div>
     <label for="" id="email-label">email</label>
+  </div>
+  <div>
     <input type="email" id="email" placeholder="xxxxxxx@gmail.com" required>
         </div>
 
         <div>
     <label for="" id="number-label">age(optional)</label>
+  </div>
+  <div>
     <input type="number" id="number" min="1" max="100" placeholder="enter your age" required>
+    </div>
+
+
+    <div>
+      Which option best describes your current role?
     </div>
     <div>
     <select name="" id="dropdown">
-      <option>Challenges</option>
-      <option>Projects</option>
-      <option>Community</option>
-      <option>Open Source</option>  
+      <option value="" selected>Select current role</option>
+      <option>Student</option>
+      <option>Full time job</option>
+      <option>Full time learner</option>
+      <option>Prefer not to stay</option>
+      <option>Other</option>  
     </select>
     </div>
   
-    <div>
+    <div>Would you recommend freeCodeCamp to a friend?</div>
+  <div>
   <input type="radio" id="Definitely" name="name">
   <label for="Definitely">Definitely</label>
 
@@ -47,6 +65,23 @@
   <label for="not_sure">Not sure</label><br>
 </div>
 
+
+<div>
+  What is your favorite feature of freeCodeCamp?
+</div>
+<div>
+<select name="" id="dropdown">
+  <option value="" selected>Select an option</option>
+  <option>Challenges</option>
+  <option>Projects</option>
+  <option>Community</option>
+  <option>Open Source</option>  
+</select>
+</div>
+
+
+
+<div>What would you like to see improved? (Check all that apply)</div>
 <div>
   <input type="checkbox" id="chk1" name="vehicle1" value="Bike">
   <label for="chk1"> Front-end Projects</label><br>
@@ -81,6 +116,10 @@
   <input type="checkbox" id="chk11" name="vehicle3" value="Boat">
   <label for="chk11"> Additional Courses</label><br>
 </div>
+
+
+
+<div>Any comments or suggestions?</div>
 <div>
   <textarea name="" id="" cols="30" rows="10" placeholder="enter your comment here"></textarea>
 </div>
@@ -89,5 +128,7 @@
 </div>
 
   </form>
+
+</main>
 </body>
 </html>
