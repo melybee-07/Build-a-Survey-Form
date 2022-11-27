@@ -12,27 +12,29 @@
   <h1 id="title">freeCodeCamp Survey Form</h1>
   <p id="description">Thank you for taking the time to help us improve the platform</p>
   <main>
+  <div class="container">
   <form action="" id="survey-form">
-    <div class="container">
+    
+
     <div>
-    <label for="" id="name-label">name</label>
+    <label for="" id="name-label">Name</label>
     </div>
     <div>
     <input type="text" id="name" placeholder="Enter your name" required>
     </div>
 
       <div>
-    <label for="" id="email-label">email</label>
+    <label for="" id="email-label">Email</label>
   </div>
   <div>
-    <input type="email" id="email" placeholder="xxxxxxx@gmail.com" required>
+    <input type="email" id="email" placeholder="Enter your email" required>
         </div>
 
         <div>
-    <label for="" id="number-label">age(optional)</label>
+    <label for="" id="number-label">Age(optional)</label>
   </div>
   <div>
-    <input type="number" id="number" min="1" max="100" placeholder="enter your age" required>
+    <input type="number" id="number" min="1" max="100" placeholder="Enter your age" required>
     </div>
 
 
@@ -50,17 +52,16 @@
     </select>
     </div>
   
-    <div>Would you recommend freeCodeCamp to a friend?</div>
-  <div>
-  <input type="radio" id="Definitely" name="name" value="definitely">
-  <label for="Definitely">Definitely</label>
+  <div>Would you recommend freeCodeCamp to a friend?</div>
 
-  <input type="radio" id="Maybe" name="name" value="Maybe">
-  <label for="Maybe">Maybe</label>
-
-  <input type="radio" id="not_sure" name="name" value="Not sure">
-  <label for="not_sure">Not sure</label><br>
-</div>
+  <div id="radio_id">
+    <input type="radio" id="Definitely" name="name" value="definitely">
+    <label for="Definitely">Definitely</label><br>
+    <input type="radio" id="Maybe" name="name" value="Maybe">
+    <label for="Maybe">Maybe</label><br>
+    <input type="radio" id="not_sure" name="name" value="Not sure">
+    <label for="not_sure">Not sure</label>
+  </div>
 
 
 <div>
@@ -118,13 +119,14 @@
 
 <div>Any comments or suggestions?</div>
 <div>
-  <textarea name="" id="" cols="30" rows="10" placeholder="enter your comment here"></textarea>
+  <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
 </div>
 <div>
-  <button type="submit" id="submit">submit</button>
+  <button type="submit" id="submit">Submit</button>
 </div>
-</div>
+
   </form>
+</div>
 
 </main>
 </body>
